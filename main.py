@@ -2,6 +2,7 @@ from stats import wordcount
 from stats import get_book_test
 from stats import meat
 from stats import sortit
+import sys
 
 def sort_on(items):
     return items["num"]
@@ -21,7 +22,7 @@ def main():
  sorteddick=sortit(dick)
  printit(ans,sorteddick)
 
-def printit(ans,dick):
+
     print("============ BOOKBOT ============")
     print("Analyzing book found at books/frankenstein.txt...")
     print("----------- Word Count ----------")
