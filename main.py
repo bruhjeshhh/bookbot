@@ -23,14 +23,6 @@ def main():
  printit(ans,sorteddick)
 
 
-    print("============ BOOKBOT ============")
-    print("Analyzing book found at books/frankenstein.txt...")
-    print("----------- Word Count ----------")
-    print(f"Found {ans} total words")
-    print("--------- Character Count -------")
-    for ch in dick:
-        if(ch['char'].isalpha()):
-            print(f"{ch['char']}: {ch['nums']}")
  
 
 
